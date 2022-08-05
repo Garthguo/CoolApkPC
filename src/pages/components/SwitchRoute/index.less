@@ -1,0 +1,41 @@
+.switch-box {
+  display: flex;
+  width: 950px;
+
+  .switch-right {
+    position: relative;
+    color: #232323;
+    width: 450px;
+    height: 100vh;
+    overflow: auto;
+    background-color: #f2f2f6;
+    border-left: #7e7e7e 1px solid;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .tag-area {
+    width: 500px;
+    & > div {
+      width: 500px;
+    }
+    & > .arco-tabs-header-nav {
+      position: fixed;
+      top: 0;
+      background-color: #f2f2f6;
+      z-index: 999;
+    }
+    .arco-tabs-header-title-active {
+      font-weight: 900;
+      font-size: 16px;
+    }
+    & > .arco-tabs-content {
+      margin-top: 40px;
+    }
+    height: 100vh;
+    overflow: auto;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
