@@ -25,8 +25,6 @@ class request {
         Host: 'api2.coolapk.com',
         Connection: 'Keep-Alive',
         'Accept-Encoding': 'gzip',
-        Cookie:
-          'uid\u003d539645; username\u003d%E6%B2%B9%E8%85%BB%E4%B8%B8%E5%AD%90; token\u003d13609acdzEIUW-HY53aIS3NbjrAS6S3ediz3NLUYdDImXnCD0GkyOod-s4k3BUYaTZeUTDxYLArZdU-hFv7vAK5-ubyn29CnwYAsl_p2ESQmaj-h323mYKKfvEkks3M9o9hFcIaJPvw0CY2O_S1lRC4_yDrCt2HRhv7Uev2iVOxEvq9q3Onuju1KC0Q4o26it5qUOsxOTPXFaUWlBZLxrVmo4jUnGQ',
       },
       body: {},
       use: () => {},
