@@ -1,0 +1,77 @@
+.article-card {
+  background-color: #fff;
+  width: 100%;
+  min-height: 100px;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 12px;
+  overflow: hidden;
+  .arco-comment {
+    width: 100%;
+  }
+  .author {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .sub-title {
+    font-size: 12px;
+    color: #bebebe;
+  }
+  .custom-comment-action,
+  .arco-comment-datetime {
+    display: flex;
+  }
+  .article-content {
+    padding-top: 5px;
+    color: #242424;
+    line-height: 24px;
+    a {
+      text-decoration-line: none;
+      color: rgb(var(--primary-6));
+    }
+  }
+  .hot-comment {
+    //position: relative;
+    background-color: #f5f5f5;
+    width: 100%;
+    min-height: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 4px;
+    .praise {
+      font-size: 12px;
+      padding: 1px 15px;
+      border-bottom-right-radius: 10px;
+      clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+      background-color: rgb(var(--primary-6));
+    }
+    .username {
+      color: rgb(var(--primary-6));
+    }
+    div {
+      color: #232323;
+      padding: 10px;
+    }
+  }
+  .image-list {
+    border-radius: 17px;
+    overflow: hidden;
+    margin: 5px 0;
+    .arco-space-item {
+      display: inline-block;
+      //flex-wrap: wrap;
+      //width: 100%;
+      .arco-image {
+        padding: 2px;
+        //width: 33%;
+        //display: inline-block;
+      }
+      img {
+        object-fit: cover;
+        width: 100% !important;
+        height: 100%;
+      }
+      //white-space: pre-wrap;
+    }
+  }
+}
