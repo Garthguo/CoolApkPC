@@ -1,0 +1,31 @@
+.com-topic-list {
+  background-color: white;
+  border-radius: 10px;
+  overflow: auto;
+  max-height: 100vh;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .topic-box {
+    display: flex;
+    padding: 10px 15px 5px 15px;
+    color: #212121;
+    img {
+      width: 20%;
+      border-radius: 20%;
+      margin-right: 15px;
+    }
+    .right-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      .title {
+        color: #212121;
+        font-size: 20px;
+      }
+      .info {
+        color: #7e7e7e;
+      }
+    }
+  }
+}
